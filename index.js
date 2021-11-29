@@ -9,6 +9,9 @@ dotenv.config();
 app.use(express.json());
 app.use(cors());
 
+const registerRouter = require("./routers/routes/role");
+app.use( registerRouter);
+
 // const registerRouter = require("./router/route/register");
 // app.use("/", registerRouter);
 
