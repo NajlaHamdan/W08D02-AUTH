@@ -4,6 +4,7 @@
 - dotenv
 - jsonwebtoken 
 - bcrypt
+- mongoose
 
 # functions
 
