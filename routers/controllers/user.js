@@ -7,7 +7,7 @@ const secret = process.env.SECRETKEY;
 const register = async (req, res) => {
 
   const { email, password, role } = req.body;
-  const hashed = await bcrypt.hash(password, salt);
+  const hashed = await bcrypt.hash(password, salt)
   const newUser = new userModel({
     role,
     email,
