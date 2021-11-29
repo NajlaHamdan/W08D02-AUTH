@@ -1,9 +1,10 @@
 # W08D02-AUTH
-#package used 
+# package used 
 - express
 - dotenv
 - jsonwebtoken 
 - bcrypt
+- mongoose
 
 # functions
 
