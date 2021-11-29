@@ -1,9 +1,9 @@
 # W08D02-AUTH
-#packafe used 
-express
-dotenv
-jsonwebtoken 
-bcrypt
+#package used 
+- express
+- dotenv
+- jsonwebtoken 
+- bcrypt
 
 # functions
 
