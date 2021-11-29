@@ -1,5 +1,5 @@
 const userModel = require("./../../db/models/user");
-require("dotenv").config();
+// require("dotenv").config();already has configed
 const bcrypt = require("bcrypt");
 const jwt = require("jsonwebtoken");
 const salt = Number(process.env.SALT);
