@@ -12,11 +12,11 @@ app.use(cors());
 const roleRouter = require("./routers/routes/role");
 app.use( roleRouter);
 
-// const registerRouter = require("./router/route/register");
-// app.use("/", registerRouter);
+const registerRouter = require("./routers/routes/user");
+app.use(registerRouter);
 
-// const logInRouter = require("./router/route/login");
-// app.use("/", logInRouter);
+const loginRouter = require("./routers/routes/user");
+app.use( loginRouter);
 
 const port = process.env.PORT;
 app.listen(port, () => {

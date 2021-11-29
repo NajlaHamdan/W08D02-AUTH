@@ -6,13 +6,9 @@ const user = new mongoose.Schema({
     required: true,
     lowercase: true,
     unique: true,
-    validate: [
-      "/^w+([.-]?w+)*@w+([.-]?w+)*(.w{2,3})+$/",
-      "Please fill a valid email address",
-    ],
   },
   password: {type:String,required:true},
-  role: {type:Array ,ref:mongoose.Schema.type.role},
+  role: [{ type: mongoose.Schema.Types.ObjectId ,ref:"role"}],
 });
 
 module.exports = mongoose.model("user", user);
