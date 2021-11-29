@@ -12,5 +12,5 @@ login
 - generate for tocken
 
 register 
--take data from user to save it in database and use it to login
--make salt for password and make email to lower case
+- take data from user to save it in database and use it to login
+- make salt for password and make email to lower case
