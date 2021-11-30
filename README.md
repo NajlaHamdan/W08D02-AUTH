@@ -10,7 +10,7 @@
 
 login
 - check if the user is exist or no or there is something wrong in password or email.
-- generate for tocken
+- generate tocken
 
 register 
 - take data from user to save it in database and use it to login
